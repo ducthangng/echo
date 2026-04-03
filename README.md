@@ -29,21 +29,3 @@ The application features a dual-mode learning pipeline:
     3. S3 URL is saved to **AWS RDS** alongside user metadata.
     4. Backend triggers the AI grading pipeline to generate an IELTS-style report.
 
-## 📦 Local Development
-
-```bash
-# 1. Clone the repository
-git clone [https://github.com/your-username/ielts-speaking-app.git](https://github.com/your-username/ielts-speaking-app.git)
-
-# 2. Install dependencies
-pnpm install # or npm / yarn
-
-# 3. Setup environment variables
-cp .env.example .env.local
-# Fill in your AWS, MongoDB Atlas, and Database credentials
-
-# 4. Run database migrations (e.g., using Prisma or Drizzle)
-pnpm db:push
-
-# 5. Start the development server
-pnpm dev
