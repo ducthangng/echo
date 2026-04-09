@@ -501,7 +501,7 @@ const ShadowingClient: React.FC<ShadowingClientProps> = ({ task }) => {
               ) : (
                 <>
                   <Mic className="w-5 h-5" />
-                  Start Shadowing
+                  Start Shadowings
                 </>
               )}
             </button>
